@@ -1,0 +1,28 @@
+.container{
+    width:200px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+#result{
+    text-align: right;
+    width:100%;
+    margin:0 1px;
+    padding:0 2px;
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+}
+.row{
+    display: flex;
+    width:100%;
+}
+button{
+    font-size: 20px;
+    margin:2px 1px;
+    width:35px;
+    flex:auto;
+}
+

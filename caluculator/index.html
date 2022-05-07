@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  
+		<link rel="stylesheet" href="main.css">
+		<title>電卓</title>
+	</head>
+	<body>
+		<div class="container">
+			<div id = "result" class="">0</div>
+			<div class="row">
+				<button class="number" type="button">7</button>
+				<button class="number" type="button">8</button>
+				<button class="number" type="button">9</button>
+				<button class="operator secondary" type="button">+</button>
+			</div>
+			<div class="row">
+				<button class="number" type="button">4</button>
+				<button class="number" type="button">5</button>
+				<button class="number" type="button">6</button>
+				<button class="operator secondary" type="button">-</button>
+			</div>
+			<div class="row">
+				<button class="number" type="button">1</button>
+				<button class="number" type="button">2</button>
+				<button class="number" type="button">3</button>
+				<button class="operator primary" type="button">*</button>
+			</div>
+			<div class="row">
+				<button class="number zero" type="button">0</button>
+				<button class="number zero" type="button">00</button>
+				<button id="point" type="button">.</button>
+				<button class="operator primary" type="button">÷</button>
+			</div>
+			<div class="row">
+				<button id="reset" type="button">AC</button>
+				<button id="equal" type="button">=</button>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
